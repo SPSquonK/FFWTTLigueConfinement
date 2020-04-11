@@ -83,7 +83,7 @@ import pprint as pp
 print('<table class="wikitable" border="1" style="text-align: center; width:90%">')
 
 def print_header():
-    s = "<tr><td></td>"
+    s = "<tr><td></td><td>Joués /<br>Total</td>"
 
     for player_name in sorted_list_of_players:
         s += "<td>" + player_name + " (" + list_of_players[player_name]["job"] + ")</td>"
@@ -99,6 +99,7 @@ for player_name in sorted_list_of_players:
 
     s = "<tr>"
     s += "<td>" + player_name + " (" + player["job"] + ")</td>"
+    s += "<td>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players)) + "</td>"
 
     for other_player_name in sorted_list_of_players:
         if other_player_name in player["games"]:
