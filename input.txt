@@ -1,0 +1,62 @@
+// Liste des joueurs
+Aldiabloss Ninja
+ClaXus Mog
+Didier_Raoult Ninja
+DjaM Ninja
+Garuda Berserk
+Huey Moine
+Laguna Berserk
+Marluxia Ninja
+Nadroj Ninja
+Redsox Magicien
+SquonK Magicien
+TymGiu Ninja
+Xenmas Ninja
+zlogjzeigfzgjpzeige Magicien
+_Jagged_Edge_ Ninja
+
+// Joueur1 Joueur2 ScoreJoueur1 ScoreJoueur2 Log?
+TymGiu Nadroj -3 -1
+TymGiu SquonK -3 -2
+Xenmas Nadroj -3 -5
+TymGiu Xenmas 0 -4
+ClaXus Aldiabloss -1 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#ClaXus_.28Mog_-_21_hp.29_vs_Aldiabloss_.28Ninja_-_25_hp.29
+Xenmas Aldiabloss 11 -3 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Xenmas_.28Ninja_-_25_hp.29_vs_Aldiabloss_.28Ninja_-_25_hp.29
+Didier_Raoult Laguna -1 -5
+Xenmas zlogjzeigfzgjpzeige 0 5
+Xenmas Didier_Raoult -2 -2
+Xenmas Huey 1 5
+Marluxia _Jagged_Edge_ -2 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Jagged_Edge_.28Ninja_25_hp.29_vs_Marluxia_.28Ninja_25_hp.29
+Marluxia Huey -1 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Marluxia_.28Ninja_25_hp.29_vs_Huey_.28Moine_31_hp.29
+Didier_Raoult Huey 0 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Didier_Raoult_.28Ninja_25_hp.29_vs_Huey_.28Moine_31_hp.29
+Marluxia DjaM -3 -5 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Marluxia_.28Ninja_25_hp.29_vs_DjaM_.28Ninja_25_hp.29
+Didier_Raoult Aldiabloss 10 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Didier_Raoult_.28Ninja_25_hp.29_vs_Aldiabloss_.28Ninja_25_hp.29
+Aldiabloss Huey 0 10 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Huey_.28Moine_31_hp.29_vs_Aldiabloss_.28Ninja_25_hp.29
+Marluxia Aldiabloss 10 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Marluxia_.28Ninja_25_hp.29_vs_Aldiabloss_.28Ninja_25_hp.29
+Huey Laguna 16 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Huey_.28Moine_31_hp.29_vs_Laguna_.28Ninja_27_hp.29
+Marluxia zlogjzeigfzgjpzeige -2 -3 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Marluxia_.28Ninja_25_hp.29_vs_zlogjzeigfzgjpzeige_.28Magicien_19_hp.29
+Didier_Raoult TymGiu 14 -3 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Didier_Raoult_.28Ninja_25_hp.29_vs_TymGiu_.28Ninja_25_hp.29
+TymGiu zlogjzeigfzgjpzeige -3 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#zlogjzeigfzgjpzeige_.28Magicien_19_hp.29_vs_TymGiu_.28Ninja_25_hp.29
+Didier_Raoult zlogjzeigfzgjpzeige -1 7 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#zlogjzeigfzgjpzeige_.28Magicien_19_hp.29_vs_Didier_Raoult_.28Ninja_25_hp.29
+TymGiu Huey -2 11 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#TymGiu_.28Ninja_25_hp.29_vs_Huey_.28Moine_31_hp.29
+TymGiu Garuda -1 7 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#TymGiu_.28Ninja_25_hp.29_vs_Garuda_.28Berserk_27_hp.29
+Huey Redsox 4 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Huey_.28Moine_31_hp.29_vs_Redsox_.28Magicien_19_hp.29
+Xenmas Laguna 9 -6 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Prince_of_Persia_.28Ninja_25_hp.29_vs_Laguna_.28Berserk_27_hp.29
+Aldiabloss Nadroj -5 1 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_Nadroj_.28Ninja_25_hp.29
+Aldiabloss Laguna 6 -3 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_Laguna_.28Berserk_27_hp.29
+Huey Nadroj 0 2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Huey_.28Moine_31_hp.29_vs_Nadroj_.28Moine_25_hp.29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
