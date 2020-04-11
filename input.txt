@@ -53,4 +53,12 @@ Redsox DjaM -2 13 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2
 Aldiabloss Garuda 1 -1 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_Garuda_.28Bersek_27_hp.29
 Garuda Nadroj -1 6
 TymGiu Marluxia 0 6
+TymGiu ClaXus 1 -6
+TymGiu Redsox -5 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#TymGiu_.28Ninja_25_hp.29_vs_Redsox_.28Magicien_19_hp.29
+Nadroj zlogjzeigfzgjpzeige 0 1 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Nadroj_.28Ninja_25_hp.29_vs_zlogjzeigfzgjpzeige_.28Magicien_19_hp.29
+TymGiu DjaM -2 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#DjaM_.28Ninja_25_hp.29_vs_TymGiu_.28Ninja_25_hp.29
+Marluxia Xenmas -2 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Marluxia_.28Ninja_25_hp.29_vs_Xenmas_.28Ninja_25_hp.29
+
+
+
 
