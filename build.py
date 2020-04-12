@@ -1,3 +1,4 @@
+import sys
 
 list_of_players = {}
 
@@ -48,10 +49,10 @@ with open("input.txt") as f:
             list_of_players[s[0]]["games"] = {}
         elif len(s) >= 4:
             if s[0] not in list_of_players:
-                print(s[0] + "is an unknown player")
+                sys.stderr.write(s[0] + "is an unknown player")
                 exit(0)
             elif s[0] not in list_of_players:
-                print(s[1] + "is an unknown player")
+                sys.stderr.write(s[1] + "is an unknown player")
                 exit(0)
             else:
                 if len(s) == 4:
@@ -61,9 +62,11 @@ with open("input.txt") as f:
                     register(s[0], list_of_players[s[0]], s[1], int(s[2]), int(s[3]), s[4])
                     register(s[1], list_of_players[s[1]], s[0], int(s[3]), int(s[2]), s[4])
                 else:
-                    print("Unknown line " + str(s))
+                    sys.stderr.write("Unknown line " + str(s))
+                    exit(0)
         else:
-            print("Unknown line " + str(s))
+            sys.stderr.write("Unknown line " + str(s))
+            exit(0)
 
 
 sorted_list_of_players = []
