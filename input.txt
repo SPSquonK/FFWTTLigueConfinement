@@ -68,7 +68,7 @@ Marluxia Garuda 10 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:Squo
 Huey zlogjzeigfzgjpzeige -2 -4 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Huey_.28Moine_31_hp.29_vs_zlogjzeigfzgjpzeige_.28Magichien_19_hp.29
 Marluxia Didier_Raoult -4 2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Marluxia_.28Ninja_25_hp.29_vs_Didier_Raoult_.28Ninja_25_hp.29
 Marluxia SquonK -1 5
-Nadroj SquonK 0 6
+Nadroj SquonK -3 9
 Nadroj _Jagged_Edge_ 6 0
 SquonK Garuda -2 -5
 Nadroj Redsox -3 1
