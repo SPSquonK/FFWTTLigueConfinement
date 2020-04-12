@@ -102,7 +102,7 @@ for player_name in sorted_list_of_players:
 
     s = "<tr>"
     s += "<td>" + player_name + " (" + player["job"] + ")</td>"
-    s += "<td>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players)) + "</td>"
+    s += "<td>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players) - 1) + "</td>"
 
     for other_player_name in sorted_list_of_players:
         if other_player_name in player["games"]:
