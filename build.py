@@ -21,7 +21,7 @@ def register(player_name, player_info, opponent, my_score, his_score, proof):
         point = 0
 
     if opponent in player_info["games"]:
-        print(player_name + " and " + opponent + " played twice")
+        sys.stderr.write(player_name + " and " + opponent + " played twice")
         exit(0)
     
     player_info["total_score"] += point
