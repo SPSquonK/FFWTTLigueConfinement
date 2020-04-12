@@ -82,6 +82,6 @@ ClaXus Marluxia -3 -1
 SquonK Huey 3 0
 // TymGiu Aldiabloss 5 -1 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#TymGiu_.28Ninja_25_hp.29_vs_Aldiabloss_.28Ninja_25_hp.29 -> Joué deux fois
 TymGiu Laguna -3 7 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#TymGiu_.28Ninja_25_hp.29_vs_Laguna_.28Berserk_27_hp.29
-
+Aldiabloss SquonK -1 5
 
 

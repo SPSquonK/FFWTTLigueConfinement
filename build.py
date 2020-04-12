@@ -97,7 +97,27 @@ def print_header():
 
 print_header()
 
-for player_name in sorted_list_of_players:
+
+resorted_list_of_players = []
+
+for player_name in list_of_players:
+    resorted_list_of_players.append(player_name)
+    
+def key_func(player_name):
+    # Sorts by points for players that played everything and by nick for other
+    # I hate it
+    player = list_of_players[player_name]
+    
+    if len(player["games"]) == len(sorted_list_of_players) - 1:
+        return (0, -player["total_score"], -player["goal_average"], "")
+    else:
+        return (1, 0, 0, player_name)
+
+
+resorted_list_of_players.sort()
+
+
+for player_name in resorted_list_of_players:
     player = list_of_players[player_name]
 
     s = "<tr>"
@@ -107,6 +127,9 @@ for player_name in sorted_list_of_players:
     for other_player_name in sorted_list_of_players:
         if other_player_name in player["games"]:
             s += "<td>"
+            
+            if other_player_name == player_name:
+                s += "<em>N/A</em>"
             
             game = player["games"][other_player_name]
 
