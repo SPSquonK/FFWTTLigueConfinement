@@ -104,17 +104,17 @@ for player_name in list_of_players:
     resorted_list_of_players.append(player_name)
     
 def key_func(player_name):
-    # Sorts by points for players that played everything and by nick for other
-    # I hate it
     player = list_of_players[player_name]
     
-    if len(player["games"]) == len(sorted_list_of_players) - 1:
-        return (0, -player["total_score"], -player["goal_average"], "")
-    else:
-        return (1, 0, 0, player_name)
+    # Sorts by points for players that played everything and by nick for other
+    # I hate it
+    #if len(player["games"]) == len(sorted_list_of_players) - 1:
+    #    return (0, -player["total_score"], -player["goal_average"], "")
+    #else:
+    return (1, 0, 0, player_name.lower())
 
 
-resorted_list_of_players.sort()
+#resorted_list_of_players.sort()
 
 
 for player_name in resorted_list_of_players:
