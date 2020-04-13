@@ -85,7 +85,11 @@ TymGiu Laguna -3 7 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/
 Aldiabloss SquonK -1 5
 _Jagged_Edge_ TymGiu -2 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Jagged_Edge_.28Ninja_25_hp.29_vs_TymGiu_.28Ninja_25_hp.29
 _Jagged_Edge_ ClaXus -3 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Jagged_Edge_.28Ninja_25_hp.29_vs_ClaXus_.28Mog_21_hp.29
-
-
+_Jagged_Edge_ SquonK -4 -1
+Laguna Redsox -5 2
+Garuda Redsox -3 6
+Didier_Raoult Nadroj 2 -4
+Didier_Raoult Redsox 0 3
+ClaXus Xenmas 1 -3
 
 
