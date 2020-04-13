@@ -99,4 +99,6 @@ Didier_Raoult Garuda 16 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:
 SquonK Didier_Raoult -3 -1
 // Huey _Jagged_Edge_
 SquonK Redsox -1 -1
-
+Redsox Aldiabloss 0 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_24_hp.29_vs_Redsox_.28Magicien_19_hp.29
+SquonK zlogjzeigfzgjpzeige 6 0
+ClaXus Didier_Raoult -2 7 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Didier_Raoult_.28Ninja_25_hp.29_vs_ClaXus_.28Mog_21_hp.29
