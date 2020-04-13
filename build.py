@@ -2,6 +2,7 @@ import sys
 
 list_of_players = {}
 
+SHOW_PACE = False
 
 def register(player_name, player_info, opponent, my_score, his_score, proof):
     status = ""
@@ -91,7 +92,12 @@ def print_header():
     for player_name in sorted_list_of_players:
         s += "<td>" + player_name + " (" + list_of_players[player_name]["job"] + ")</td>"
 
-    s = s + "<td>Score</td><td>Goal Average</td></tr>"
+    s = s + "<td>Score</td><td>Goal Average</td>"
+    
+    if SHOW_PACE:
+        s = s + "<td>Max</td><td>Rythme</td>"
+    
+    s = s + "</tr>"
     print(s)
 
 
@@ -146,7 +152,15 @@ for player_name in resorted_list_of_players:
             s += "<td></td>"
 
 
-    s += "<td>" + str(player["total_score"]) + "</td><td>" + str(player["goal_average"]) + "</td></tr>"
+    s += "<td>" + str(player["total_score"]) + "</td><td>" + str(player["goal_average"]) + "</td>"
+    
+    if SHOW_PACE:
+        max_score = player["total_score"] + (len(sorted_list_of_players) - 1 - len(player["games"])) * 3
+        pace = int(player["total_score"] / len(player["games"]) * (len(sorted_list_of_players ) - 1))
+    
+        s += "<td>" + str(max_score)  + "</td><td>" + str(pace) + "</td>"
+    
+    s += "</tr>"
 
     print(s)
 
