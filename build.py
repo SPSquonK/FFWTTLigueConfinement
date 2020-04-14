@@ -174,6 +174,27 @@ print()
 print()
 print()
 print("'''Matchs restants'''")
+
+def print_missing(my_name):
+    s = "* '''" + my_name + "''' : "
+    
+    player = list_of_players[my_name]
+    
+    b = False
+    
+    for other_name in resorted_list_of_players:
+        if other_name not in player["games"] and my_name != other_name:
+            if b:
+                s += ", "
+            b = True
+            
+            s += other_name
+    print(s)
+
+print_missing("DjaM")
+print_missing("_Jagged_Edge_")
+
+'''
 for i in range(len(resorted_list_of_players)):
     my_name = resorted_list_of_players[i]
     player = list_of_players[my_name]
@@ -183,7 +204,7 @@ for i in range(len(resorted_list_of_players)):
         
         if other_name not in player["games"]:
             print("* " + my_name + " vs " + other_name)
-    
+'''
     
     
     
