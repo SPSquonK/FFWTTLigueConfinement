@@ -191,10 +191,10 @@ def print_missing(my_name):
             s += other_name
     print(s)
 
-print_missing("DjaM")
-print_missing("_Jagged_Edge_")
+#print_missing("DjaM")
+#print_missing("_Jagged_Edge_")
 
-'''
+
 for i in range(len(resorted_list_of_players)):
     my_name = resorted_list_of_players[i]
     player = list_of_players[my_name]
@@ -204,8 +204,29 @@ for i in range(len(resorted_list_of_players)):
         
         if other_name not in player["games"]:
             print("* " + my_name + " vs " + other_name)
-'''
+
     
     
+def key_func(player_name):
+    player = list_of_players[player_name]
+    return (0, -player["total_score"], -player["goal_average"], "")
+
+resorted_list_of_players.sort(key=key_func)
+
+
+print('<table class="wikitable" border="1" style="text-align: center; width:90%">')
+print('<tr><th>Position</th><th>Nom</th><th>Joués</th><th>Points</th><th>Goal Average</th></tr>')
+
+for (i, player_name) in enumerate(resorted_list_of_players):
+    player = list_of_players[player_name]
     
+    s = "<tr><th>" + str(i + 1) + ".</th><td>" + player_name + "</td>"
+    s += "<td>" + str(len(player["games"])) + "</td>"
+    s += "<td>" + str(player["total_score"]) + "</td>"
+    s += "<td>" + str(player["goal_average"]) + "</td>"
+    s += "</tr>"
+    
+    print(s)
+
+print('</table>')
 
