@@ -149,7 +149,10 @@ for player_name in resorted_list_of_players:
             
             s += "</td>"
         else:
-            s += "<td></td>"
+            if player_name == other_player_name:
+                s += "<td></td>"
+            else:
+                s += "<td style=\"background-color: darkgrey;\"></td>"
 
 
     s += "<td>" + str(player["total_score"]) + "</td><td>" + str(player["goal_average"]) + "</td>"
@@ -167,4 +170,21 @@ for player_name in resorted_list_of_players:
 
 
 print("</table>")
+print()
+print()
+print()
+print("'''Matchs restants'''")
+for i in range(len(resorted_list_of_players)):
+    my_name = resorted_list_of_players[i]
+    player = list_of_players[my_name]
+    
+    for j in range(i + 1, len(resorted_list_of_players)):
+        other_name = resorted_list_of_players[j]
+        
+        if other_name not in player["games"]:
+            print("* " + my_name + " vs " + other_name)
+    
+    
+    
+    
 
