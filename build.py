@@ -93,7 +93,8 @@ import pprint as pp
 print('<table class="wikitable" border="1" style="text-align: center; width:90%">')
 
 def print_header():
-    s = "<tr><th></th><th>Joués /<br>Total</th>"
+    s = "<tr><th></th>"
+    # s += "<th>Joués /<br>Total</th>"
 
     for player_name in sorted_list_of_players:
         s += "<th>" + player_name + " (" + list_of_players[player_name]["job"] + ")</th>"
@@ -134,7 +135,7 @@ for player_name in resorted_list_of_players:
 
     s = "<tr>"
     s += "<th>" + player_name + " (" + player["job"] + ")</th>"
-    s += "<th>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players) - 1) + "</th>"
+    #s += "<th>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players) - 1) + "</th>"
 
     for other_player_name in sorted_list_of_players:
         if other_player_name in player["games"]:
@@ -221,14 +222,14 @@ resorted_list_of_players.sort(key=key_func)
 
 
 print('<table class="wikitable" border="1" style="text-align: center;">')
-print('<tr><th>Position</th><th>Nom</th><th>Classe</th><th>Joués</th><th>Points / Maximum possible</th><th>Goal Average</th><th>Gain</th></tr>')
+print('<tr><th>Position</th><th>Nom</th><th>Classe</th><th>Points</th><th>Goal Average</th><th>Gain</th></tr>')
 
 for (i, player_name) in enumerate(resorted_list_of_players):
     player = list_of_players[player_name]
     
     s = "<tr><th>" + str(i + 1) + ".</th><th>" + player_name + "</th>"
     s += "<td>" + player["job"] + "</td>"
-    s += "<td>" + str(len(player["games"])) + "</td>"
+    #s += "<td>" + str(len(player["games"])) + "</td>"
     s += "<td>" + str(player["total_score"]) + "</td>"
     
     #possible_points = player["total_score"]
