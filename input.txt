@@ -15,6 +15,21 @@ Xenmas Ninja
 zlogjzeigfzgjpzeige Magicien
 _Jagged_Edge_ Ninja
 
+// Gains
+Reward 30 Points de Notoriété + Toutes les cartes power 19 et plus d'un deck
+Reward 27 Points de Notoriété + 12 Cartes au choix
+Reward 24 Points de Notoriété + 10 Cartes au choix
+Reward 21 Points de Notoriété + 9 Cartes au choix
+Reward 18 Points de Notoriété + 8 Cartes au choix
+Reward 15 Points de Notoriété + 7 Cartes au choix
+Reward 10 Points de Notoriété + 6 Cartes au choix
+Reward 8 Points de Notoriété + 5 Cartes au choix
+Reward 5 Points de Notoriété + 4 Cartes au choix
+Reward 3 Points de Notoriété + 3 Cartes au choix
+Reward 3 Points de Notoriété + 3 Cartes au choix
+Reward 3 Points de Notoriété + 3 Cartes au choix
+
+
 // Joueur1 Joueur2 ScoreJoueur1 ScoreJoueur2 Log?
 TymGiu Nadroj -3 -1
 TymGiu SquonK -3 -2
@@ -121,4 +136,4 @@ zlogjzeigfzgjpzeige DjaM 8 -2
 _Jagged_Edge_ DjaM -6 2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Jagged_Edge_.28Ninja_25_hp.29_vs_DjaM_.28Ninja_25_hp.29
 Aldiabloss DjaM 0 6 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_DjaM_.28Ninja_25_hp.29
 DjaM Laguna 16 0 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#DjaM_.28Ninja_25_hp.29_vs_Laguna_.28Berserk_27_hp.29
-
+_Jagged_Edge_ Laguna 7 -2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Jagged_Edge_.28Ninja_25_hp.29_vs_Laguna_.28Berserk_27_hp.29

@@ -32,12 +32,18 @@ def register(player_name, player_info, opponent, my_score, his_score, proof):
     player_info["games"][opponent]["score"] = str(my_score) + " / " + str(his_score)
     player_info["games"][opponent]["proof"] = proof
 
-with open("input.txt") as f:
+rewards = []
+
+with open("input.txt", encoding="utf-8") as f:
     for line in f.readlines():
         line = line.strip()
         if line is None or len(line) == 0:
             continue
         if line[0:2] == "//":
+            continue
+            
+        if line[0:6] == "Reward":
+            rewards.append(line[7:])
             continue
 
         s = line.split(" ")
@@ -215,21 +221,29 @@ resorted_list_of_players.sort(key=key_func)
 
 
 print('<table class="wikitable" border="1" style="text-align: center;">')
-print('<tr><th>Position</th><th>Nom</th><th>Classe</th><th>Joués</th><th>Points / Maximum possible</th><th>Goal Average</th></tr>')
+print('<tr><th>Position</th><th>Nom</th><th>Classe</th><th>Joués</th><th>Points / Maximum possible</th><th>Goal Average</th><th>Gain</th></tr>')
 
 for (i, player_name) in enumerate(resorted_list_of_players):
     player = list_of_players[player_name]
     
-    s = "<tr><th>" + str(i + 1) + ".</th><td>" + player_name + "</td>"
+    s = "<tr><th>" + str(i + 1) + ".</th><th>" + player_name + "</th>"
     s += "<td>" + player["job"] + "</td>"
     s += "<td>" + str(len(player["games"])) + "</td>"
-    s += "<td>" + str(player["total_score"])
+    s += "<td>" + str(player["total_score"]) + "</td>"
     
-    possible_points = player["total_score"]
-    possible_points += 3 * (len(resorted_list_of_players) - len(player["games"]) - 1)
+    #possible_points = player["total_score"]
+    #possible_points += 3 * (len(resorted_list_of_players) - len(player["games"]) - 1)
     
-    s += " / " + str(possible_points) + "</td>"
+    #s += " / " + str(possible_points) + "</td>"
     s += "<td>" + str(player["goal_average"]) + "</td>"
+    
+    s += "<td>"
+    if i < len(rewards):
+        pass
+        #s += rewards[i]
+    
+    s += "</td>"
+    
     s += "</tr>"
     
     print(s)
