@@ -16,18 +16,21 @@ zlogjzeigfzgjpzeige Magicien
 _Jagged_Edge_ Ninja
 
 // Gains
-Reward 30 Points de Notoriété + Toutes les cartes power 19 et plus d'un deck
-Reward 27 Points de Notoriété + 12 Cartes au choix
-Reward 24 Points de Notoriété + 10 Cartes au choix
-Reward 21 Points de Notoriété + 9 Cartes au choix
-Reward 18 Points de Notoriété + 8 Cartes au choix
-Reward 15 Points de Notoriété + 7 Cartes au choix
-Reward 10 Points de Notoriété + 6 Cartes au choix
-Reward 8 Points de Notoriété + 5 Cartes au choix
-Reward 5 Points de Notoriété + 4 Cartes au choix
-Reward 3 Points de Notoriété + 3 Cartes au choix
-Reward 3 Points de Notoriété + 3 Cartes au choix
-Reward 3 Points de Notoriété + 3 Cartes au choix
+Reward 33 Points de Notoriété + Toutes les cartes power 18 et plus d'un deck ou 22 Cartes au choix
+Reward 30 Points de Notoriété + 18 Cartes au choix
+Reward 27 Points de Notoriété + 16 Cartes au choix
+Reward 24 Points de Notoriété + 14 Cartes au choix
+Reward 21 Points de Notoriété + 12 Cartes au choix
+Reward 18 Points de Notoriété + 11 Cartes au choix
+Reward 15 Points de Notoriété + 10 Cartes au choix
+Reward 12 Points de Notoriété + 9 Cartes au choix
+Reward 9 Points de Notoriété + 8 Cartes au choix
+Reward 8 Points de Notoriété + 7 Cartes au choix
+Reward 7 Points de Notoriété + 6 Cartes au choix
+Reward 6 Points de Notoriété + 5 Cartes au choix
+Reward 5 Points de Notoriété + 5 Cartes au choix
+Reward 4 Points de Notoriété + 5 Cartes au choix
+Reward 3 Points de Notoriété + 5 Cartes au choix
 
 
 // Joueur1 Joueur2 ScoreJoueur1 ScoreJoueur2 Log?

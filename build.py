@@ -240,8 +240,7 @@ for (i, player_name) in enumerate(resorted_list_of_players):
     
     s += "<td>"
     if i < len(rewards):
-        pass
-        #s += rewards[i]
+        s += rewards[i]
     
     s += "</td>"
     
