@@ -116,5 +116,7 @@ _Jagged_Edge_ Garuda -2 8 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:
 Nadroj DjaM -2 -4 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#DjaM_.28Ninja_25_hp.29_vs_Nadroj_.28Ninja_25_hp.29
 Redsox _Jagged_Edge_ 8 -3 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Redsox_.28Magicien_19_hp.29_vs_Jagged_Edge_.28Ninja_25_hp.29
 Aldiabloss _Jagged_Edge_ 0 6 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_Jagged_Edge_.28Ninja_25_hp.29
+ClaXus DjaM -1 9
+zlogjzeigfzgjpzeige DjaM 8 -2
 
 

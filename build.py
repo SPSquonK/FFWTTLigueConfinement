@@ -87,15 +87,15 @@ import pprint as pp
 print('<table class="wikitable" border="1" style="text-align: center; width:90%">')
 
 def print_header():
-    s = "<tr><td></td><td>Joués /<br>Total</td>"
+    s = "<tr><th></th><th>Joués /<br>Total</th>"
 
     for player_name in sorted_list_of_players:
-        s += "<td>" + player_name + " (" + list_of_players[player_name]["job"] + ")</td>"
+        s += "<th>" + player_name + " (" + list_of_players[player_name]["job"] + ")</th>"
 
-    s = s + "<td>Score</td><td>Goal Average</td>"
+    s = s + "<th>Score</th><th>Goal Average</th>"
     
     if SHOW_PACE:
-        s = s + "<td>Max</td><td>Rythme</td>"
+        s = s + "<th>Max</th><th>Rythme</th>"
     
     s = s + "</tr>"
     print(s)
@@ -127,8 +127,8 @@ for player_name in resorted_list_of_players:
     player = list_of_players[player_name]
 
     s = "<tr>"
-    s += "<td>" + player_name + " (" + player["job"] + ")</td>"
-    s += "<td>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players) - 1) + "</td>"
+    s += "<th>" + player_name + " (" + player["job"] + ")</th>"
+    s += "<th>" + str(len(player["games"])) + " / " + str(len(sorted_list_of_players) - 1) + "</th>"
 
     for other_player_name in sorted_list_of_players:
         if other_player_name in player["games"]:
@@ -150,12 +150,12 @@ for player_name in resorted_list_of_players:
             s += "</td>"
         else:
             if player_name == other_player_name:
-                s += "<td></td>"
+                s += "<td style=\"background-color: #F2F2F2\">N/A</td>"
             else:
-                s += "<td style=\"background-color: darkgrey;\"></td>"
+                s += "<td style=\"background-color: pink\"></td>"
 
 
-    s += "<td>" + str(player["total_score"]) + "</td><td>" + str(player["goal_average"]) + "</td>"
+    s += "<th>" + str(player["total_score"]) + "</th><th>" + str(player["goal_average"]) + "</th>"
     
     if SHOW_PACE:
         max_score = player["total_score"] + (len(sorted_list_of_players) - 1 - len(player["games"])) * 3
@@ -214,15 +214,21 @@ def key_func(player_name):
 resorted_list_of_players.sort(key=key_func)
 
 
-print('<table class="wikitable" border="1" style="text-align: center; width:90%">')
-print('<tr><th>Position</th><th>Nom</th><th>Joués</th><th>Points</th><th>Goal Average</th></tr>')
+print('<table class="wikitable" border="1" style="text-align: center;">')
+print('<tr><th>Position</th><th>Nom</th><th>Classe</th><th>Joués</th><th>Points / Maximum possible</th><th>Goal Average</th></tr>')
 
 for (i, player_name) in enumerate(resorted_list_of_players):
     player = list_of_players[player_name]
     
     s = "<tr><th>" + str(i + 1) + ".</th><td>" + player_name + "</td>"
+    s += "<td>" + player["job"] + "</td>"
     s += "<td>" + str(len(player["games"])) + "</td>"
-    s += "<td>" + str(player["total_score"]) + "</td>"
+    s += "<td>" + str(player["total_score"])
+    
+    possible_points = player["total_score"]
+    possible_points += 3 * (len(resorted_list_of_players) - len(player["games"]) - 1)
+    
+    s += " / " + str(possible_points) + "</td>"
     s += "<td>" + str(player["goal_average"]) + "</td>"
     s += "</tr>"
     
