@@ -118,5 +118,6 @@ Redsox _Jagged_Edge_ 8 -3 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:
 Aldiabloss _Jagged_Edge_ 0 6 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_Jagged_Edge_.28Ninja_25_hp.29
 ClaXus DjaM -1 9
 zlogjzeigfzgjpzeige DjaM 8 -2
-
+_Jagged_Edge_ DjaM -6 2 http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Jagged_Edge_.28Ninja_25_hp.29_vs_DjaM_.28Ninja_25_hp.29
+// Aldiabloss DjaM http://www.ffwtt.net/wiki/index.php?title=Utilisateur:SquonK/2020Championnat#Aldiabloss_.28Ninja_25_hp.29_vs_DjaM_.28Ninja_25_hp.29
 
