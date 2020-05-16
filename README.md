@@ -1,5 +1,9 @@
 # FFWTT Ligue Confinement MEGA SUIVI GENERATOR
 
+Script de génération des tableaux pour l'évènement
+[Championnat du confinement](http://www.ffwtt.net/wiki/index.php?title=Championnat_du_Confinement)
+organisé par ClaXus / Marluxia / Omicron2 / SquonK / Tae-Ju
+
 ## Quick Start
 
 - This script requires `python` (it has been tested on 3.7.5)
